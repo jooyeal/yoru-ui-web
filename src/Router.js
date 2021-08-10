@@ -14,7 +14,7 @@ import BadgePage from "./pages/BadgePage";
 export default function Router({ children }) {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         {children}
         <Switch>
           <Route path="/" exact component={MaterialColor} />
