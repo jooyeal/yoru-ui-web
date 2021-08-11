@@ -24,6 +24,7 @@ export default function TextFieldPage() {
   return (
     <Wrapper>
       <h1 style={{ fontSize: "48px", fontWeight: "600" }}>Select</h1>
+      <p style={{ color: "tomato" }}>This component is 'Disabled' implementation required</p>
       <h2 style={{ fontSize: "24px", fontWeight: "400" }}>
         This is a select box containing a label
       </h2>

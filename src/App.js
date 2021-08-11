@@ -50,6 +50,22 @@ function App() {
                 ],
               },
               {
+                title: "Effect",
+                content: [
+                  { subTitle: "Earth3D", to: "/effect/threeearth" },
+                  {
+                    subTitle: "Character Moving",
+                    to: "/effect/charactermoving",
+                  },
+                  {
+                    subTitle: "Physics",
+                    to: "/effect/physics",
+                  },
+                  { subTitle: "Draggable List", to: "/effect/draggable" },
+                  { subTitle: "SlidePaper", to: "/effect/slidepaper" },
+                ],
+              },
+              {
                 title: "TestPage",
                 content: [{ subTitle: "Test", to: "/testpage" }],
               },

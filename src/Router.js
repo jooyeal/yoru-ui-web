@@ -12,6 +12,11 @@ import ToolTipPage from "./pages/ToolTipPage";
 import BadgePage from "./pages/BadgePage";
 import HeaderBarPage from "./pages/HeaderBarPage";
 import SideBarPage from "./pages/SideBarPage";
+import ThreeEarth from "./effectPages/ThreeEarth";
+import SimpleCharacterMoving from "./effectPages/SimpleCharacterMoving";
+import Physics from "./effectPages/Physics";
+import Draggable from "./effectPages/Draggable";
+import SlidePaper from "./effectPages/SlidePaper";
 
 export default function Router({ children }) {
   return (
@@ -32,6 +37,15 @@ export default function Router({ children }) {
           <Route path="/component/checkbox" exact component={CheckBoxPage} />
           <Route path="/component/headerbar" exact component={HeaderBarPage} />
           <Route path="/component/sidebar" exact component={SideBarPage} />
+          <Route path="/effect/threeearth" exact component={ThreeEarth} />
+          <Route
+            path="/effect/charactermoving"
+            exact
+            component={SimpleCharacterMoving}
+          />
+          <Route path="/effect/physics" exact component={Physics} />
+          <Route path="/effect/draggable" exact component={Draggable} />
+          <Route path="/effect/slidepaper" exact component={SlidePaper} />
         </Switch>
       </BrowserRouter>
     </>
