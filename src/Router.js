@@ -10,6 +10,8 @@ import CheckBoxPage from "./pages/CheckBoxPage";
 import RadioPage from "./pages/RadioPage";
 import ToolTipPage from "./pages/ToolTipPage";
 import BadgePage from "./pages/BadgePage";
+import HeaderBarPage from "./pages/HeaderBarPage";
+import SideBarPage from "./pages/SideBarPage";
 
 export default function Router({ children }) {
   return (
@@ -28,6 +30,8 @@ export default function Router({ children }) {
           <Route path="/component/tooltip" exact component={ToolTipPage} />
           <Route path="/component/radio" exact component={RadioPage} />
           <Route path="/component/checkbox" exact component={CheckBoxPage} />
+          <Route path="/component/headerbar" exact component={HeaderBarPage} />
+          <Route path="/component/sidebar" exact component={SideBarPage} />
         </Switch>
       </BrowserRouter>
     </>

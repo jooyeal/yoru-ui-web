@@ -1,32 +1,45 @@
 import React from "react";
-import HeaderBar from "../../lib/HeaderBar";
+import HeaderBar from "@yoru_cha/yoru-ui-react/dist/HeaderBar";
 import AceEditor from "react-ace";
-import IconButton from "../../lib/IconButton";
-import Icon from "../../lib/Icon";
+import IconButton from "@yoru_cha/yoru-ui-react/dist/IconButton";
+import Icon from "@yoru_cha/yoru-ui-react/dist/Icon";
 import "ace-builds/src-noconflict/mode-javascript";
 import "ace-builds/src-noconflict/theme-chaos";
 import "ace-builds/src-noconflict/ext-language_tools";
 import { Wrapper, Container, ContainerNav } from "../style";
-import { text as simpleSelect } from "../../text/SimpleSelect";
+import { text } from "../../text/HeaderBar";
 
-export default function TextFieldPage() {
+export default function HeaderBarPage() {
   const [simpleOpen, setSimpleOpen] = React.useState(false);
-
+  const title = <div>TITLE</div>;
+  const menu = <div>MENU</div>;
+  const login = <div>LOGIN</div>;
   return (
     <Wrapper>
-      <h1 style={{ fontSize: "48px", fontWeight: "600" }}>Select</h1>
+      <h1 style={{ fontSize: "48px", fontWeight: "600" }}>Header Bar</h1>
       <h2 style={{ fontSize: "24px", fontWeight: "400" }}>
-        This is a select box containing a label
+        The Header Bar displays information and actions relating to the current
+        screen
       </h2>
       <h2 style={{ fontSize: "24px", fontWeight: "400" }}>
         It is designed to be user-friendly, and it's easy to use
       </h2>
       <br></br>
-      <Container>
-        <Select list={list} />
-        <Select label="label" list={list} color="#EF5350" />
-        <Select label="label" list={list} width="12rem" />
-        <Select label="label" list={list} width="12rem" initValue="banana" />
+      <Container style={{ position: "relative" }}>
+        <HeaderBar
+          style={{ position: "absolute" }}
+          left={{ align: "start", content: menu }}
+          center={{ content: title }}
+          right={{ align: "end", content: login }}
+        />
+      </Container>
+      <Container style={{ position: "relative" }}>
+        <HeaderBar
+          style={{ position: "absolute", backgroundColor: "tomato" }}
+          left={{ align: "center", content: menu }}
+          center={{ content: title }}
+          right={{ align: "start", content: login }}
+        />
       </Container>
       <ContainerNav>
         <IconButton onClick={() => setSimpleOpen((prev) => !prev)}>
@@ -44,7 +57,7 @@ export default function TextFieldPage() {
           fontSize={18}
           readOnly={true}
           name="editor-simple-button"
-          value={simpleSelect}
+          value={text}
         ></AceEditor>
       ) : null}
     </Wrapper>
