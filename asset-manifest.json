@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/jooyeal/yoru-ui-web.git/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/jooyeal/yoru-ui-web.git/static/js/main.316708c4.chunk.js",
-    "main.js.map": "/jooyeal/yoru-ui-web.git/static/js/main.316708c4.chunk.js.map",
-    "runtime-main.js": "/jooyeal/yoru-ui-web.git/static/js/runtime-main.ee70fee7.js",
-    "runtime-main.js.map": "/jooyeal/yoru-ui-web.git/static/js/runtime-main.ee70fee7.js.map",
-    "static/js/2.a7b270b7.chunk.js": "/jooyeal/yoru-ui-web.git/static/js/2.a7b270b7.chunk.js",
-    "static/js/2.a7b270b7.chunk.js.map": "/jooyeal/yoru-ui-web.git/static/js/2.a7b270b7.chunk.js.map",
-    "static/js/3.042748c3.chunk.js": "/jooyeal/yoru-ui-web.git/static/js/3.042748c3.chunk.js",
-    "static/js/3.042748c3.chunk.js.map": "/jooyeal/yoru-ui-web.git/static/js/3.042748c3.chunk.js.map",
-    "index.html": "/jooyeal/yoru-ui-web.git/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/jooyeal/yoru-ui-web.git/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.a7b270b7.chunk.js.LICENSE.txt": "/jooyeal/yoru-ui-web.git/static/js/2.a7b270b7.chunk.js.LICENSE.txt"
+    "main.css": "/yoru-ui-web/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/yoru-ui-web/static/js/main.ebec5455.chunk.js",
+    "main.js.map": "/yoru-ui-web/static/js/main.ebec5455.chunk.js.map",
+    "runtime-main.js": "/yoru-ui-web/static/js/runtime-main.1da3a566.js",
+    "runtime-main.js.map": "/yoru-ui-web/static/js/runtime-main.1da3a566.js.map",
+    "static/js/2.5311657b.chunk.js": "/yoru-ui-web/static/js/2.5311657b.chunk.js",
+    "static/js/2.5311657b.chunk.js.map": "/yoru-ui-web/static/js/2.5311657b.chunk.js.map",
+    "static/js/3.042748c3.chunk.js": "/yoru-ui-web/static/js/3.042748c3.chunk.js",
+    "static/js/3.042748c3.chunk.js.map": "/yoru-ui-web/static/js/3.042748c3.chunk.js.map",
+    "index.html": "/yoru-ui-web/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/yoru-ui-web/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.5311657b.chunk.js.LICENSE.txt": "/yoru-ui-web/static/js/2.5311657b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ee70fee7.js",
-    "static/js/2.a7b270b7.chunk.js",
+    "static/js/runtime-main.1da3a566.js",
+    "static/js/2.5311657b.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.316708c4.chunk.js"
+    "static/js/main.ebec5455.chunk.js"
   ]
 }
