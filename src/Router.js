@@ -20,6 +20,7 @@ import SlidePaper from "./effectPages/SlidePaper";
 import Unfold from "./effectPages/Unfold";
 import Scroll from "./effectPages/Scroll";
 import Trail from "./effectPages/Trail";
+import MovingCard from "./effectPages/MovingCard";
 import MouseTracer from "./effectPages/MouseTracer";
 
 export default function Router({ children }) {
@@ -53,12 +54,8 @@ export default function Router({ children }) {
           <Route path="/effect/unfold" exact component={Unfold} />
           <Route path="/effect/scroll" exact component={Scroll} />
           <Route path="/effect/trail" exact component={Trail} />
+          <Route path="/effect/movingcard" exact component={MovingCard} />
           <Route path="/effect/mousetracer" exact component={MouseTracer} />
-          <Route
-            path="/effect/transitiongrid"
-            exact
-            component={TransitionGrid}
-          />
         </Switch>
       </BrowserRouter>
     </>
