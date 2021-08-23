@@ -17,6 +17,10 @@ import SimpleCharacterMoving from "./effectPages/SimpleCharacterMoving";
 import Physics from "./effectPages/Physics";
 import Draggable from "./effectPages/Draggable";
 import SlidePaper from "./effectPages/SlidePaper";
+import Unfold from "./effectPages/Unfold";
+import Scroll from "./effectPages/Scroll";
+import Trail from "./effectPages/Trail";
+import MouseTracer from "./effectPages/MouseTracer";
 
 export default function Router({ children }) {
   return (
@@ -46,6 +50,15 @@ export default function Router({ children }) {
           <Route path="/effect/physics" exact component={Physics} />
           <Route path="/effect/draggable" exact component={Draggable} />
           <Route path="/effect/slidepaper" exact component={SlidePaper} />
+          <Route path="/effect/unfold" exact component={Unfold} />
+          <Route path="/effect/scroll" exact component={Scroll} />
+          <Route path="/effect/trail" exact component={Trail} />
+          <Route path="/effect/mousetracer" exact component={MouseTracer} />
+          <Route
+            path="/effect/transitiongrid"
+            exact
+            component={TransitionGrid}
+          />
         </Switch>
       </BrowserRouter>
     </>

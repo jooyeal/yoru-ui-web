@@ -63,6 +63,11 @@ function App() {
                   },
                   { subTitle: "Draggable List", to: "/effect/draggable" },
                   { subTitle: "SlidePaper", to: "/effect/slidepaper" },
+                  { subTitle: "Unfold", to: "/effect/unfold" },
+                  { subTitle: "Scroll", to: "/effect/scroll" },
+                  { subTitle: "Trail", to: "/effect/trail" },
+                  { subTitle: "MovingCard", to: "/effect/movingcard" },
+                  { subTitle: "MouseTracer", to: "/effect/mousetracer" },
                 ],
               },
               {
